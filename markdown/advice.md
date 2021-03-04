@@ -1,7 +1,7 @@
 # Advices
 Advices are a concept which has its origins in the [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)) family of programming languages. It is essentially a method of modifying the behaviour of a piece of code with some custom behaviour *without changing the code itself*.
 
-![Illustration](advice.png)
+![Illustration](img/advice.png)
 
 First of all load the `advices` module of Ido
 
