@@ -11,30 +11,30 @@ In place of `{"red", "green", "blue"}`, place the items you wish to narrow.
 ## API Documenation
 Explains the files in the core of Ido.
 
-- [Ido](ido.md)
-- [Configuration](config.md)
-- [Motions](motion.md)
-- [Cursor](cursor.md)
-- [Delete](delete.md)
-- [Layouts](layout.md)
-- [Themes](theme.md)
-- [Main](main.md)
-- [Event](event.md)
-- [Renderer](render.md)
-- [Results](result.md)
-- [Acceptation](accept.md)
-- [Advices](advice.md)
-- [Modules](module.md)
-- [Packages](package.md)
+- [Ido](markdown/ido.md)
+- [Configuration](markdown/config.md)
+- [Motions](markdown/motion.md)
+- [Cursor](markdown/cursor.md)
+- [Delete](markdown/delete.md)
+- [Layouts](markdown/layout.md)
+- [Themes](markdown/theme.md)
+- [Main](markdown/main.md)
+- [Event](markdown/event.md)
+- [Renderer](markdown/render.md)
+- [Results](markdown/result.md)
+- [Acceptation](markdown/accept.md)
+- [Advices](markdown/advice.md)
+- [Modules](markdown/module.md)
+- [Packages](markdown/package.md)
 
 ## Examples
 Demonstrates real world applications of the features developed in Ido.
 
-- [Layouts](ex_layout.md)
-- [Themes](ex_theme.md)
-- [Advices](ex_advice.md)
-- [Modules](ex_module.md)
-- [Packages](ex_package.md)
+- [Layouts](markdown/ex_layout.md)
+- [Themes](markdown/ex_theme.md)
+- [Advices](markdown/ex_advice.md)
+- [Modules](markdown/ex_module.md)
+- [Packages](markdown/ex_package.md)
 
 ## Source code
 If this is not enough for you, read the source code of [core](https://github.com/ido-nvim/core). Because the source code will *always* be the first-class citizen in a project. The comments serving as documentation in the code will forever be maintained and updated.
