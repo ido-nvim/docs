@@ -118,6 +118,6 @@ return vertical
 
 ```lua
 config.set{
-   renderer = "vertical_mode.lua" -- The name of the lua module of the renderer
+   renderer = "vertical_mode" -- The name of the lua module of the renderer
 }
 ```
