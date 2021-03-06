@@ -6,7 +6,7 @@ By default, a renderer is shipped with Ido. However, you can also define your cu
 ## Default (`ido.render`)
 The default renderer of Ido looks something like this:
 
-![Default renderer](imd/default.png)
+![Default renderer](img/default.png)
 
 It has the following options:
 | Name | Description | Default value |
