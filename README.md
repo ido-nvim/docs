@@ -3,10 +3,10 @@ The official documentation for the [core](https://github.com/ido-nvim/core) of I
 
 ## Basic usage
 ```vim
-:lua require("ido.main").start{items = {"red", "green", "blue"}}
+:lua require("ido").start{items = {"red", "green", "blue"}}
 ```
 
-In place of `{"red", "green", "blue"}`, place the items you wish to narrow.
+In place of `{"red", "green", "blue"}`, place the items you wish to narrow
 
 ## API Documenation
 Explains the files in the core of Ido.
@@ -16,11 +16,10 @@ Explains the files in the core of Ido.
 - [Motions](markdown/motion.md)
 - [Cursor](markdown/cursor.md)
 - [Delete](markdown/delete.md)
-- [Layouts](markdown/layout.md)
 - [Themes](markdown/theme.md)
 - [Main](markdown/main.md)
 - [Event](markdown/event.md)
-- [Renderer](markdown/render.md)
+- [Render](markdown/render.md)
 - [Results](markdown/result.md)
 - [Acceptation](markdown/accept.md)
 - [Advices](markdown/advice.md)
@@ -30,7 +29,6 @@ Explains the files in the core of Ido.
 ## Examples
 Demonstrates real world applications of the features developed in Ido.
 
-- [Layouts](markdown/ex_layout.md)
 - [Themes](markdown/ex_theme.md)
 - [Advices](markdown/ex_advice.md)
 - [Modules](markdown/ex_module.md)

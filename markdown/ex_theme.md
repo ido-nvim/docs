@@ -4,7 +4,7 @@ This document will describe how themes are created, with lots and lots of exampl
 Before reading this, it is advised to read the [themes api](theme.md) document first.
 
 ## Default
-This is how the default layout is created.
+This is how the default theme is created.
 
 ```lua
 theme.new{

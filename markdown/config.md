@@ -14,7 +14,7 @@ In Ido there are some options which you can change in order to change its behavi
 | Option | Description | Defaults |
 | ------ | ----------- | -------- |
 | `prompt` | The prompt before the query | `">>> "` |
-| `layout` | The name of the [layout](layout.md) | `"default"` |
+| `renderer` | The name of the [renderer](render.md) module | `"ido.render"` |
 | `theme` | The name of the [theme](theme.md) | `"default"` |
 | `case_sensitive` | Match items case sensitively | `false` |
 | `fuzzy_matching` | Match items fuzzily | `true` |

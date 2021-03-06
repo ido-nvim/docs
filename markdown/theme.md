@@ -15,7 +15,7 @@ A template theme
 | `prompt` | The prompt |
 | `normal` | The normal highlight color |
 | `cursor` | The virtual cursor |
-| `ux` | The UX elements as defined in the [layout](layout.md) |
+| `ux` | The UX elements of your renderer, without the `ido_` prefix, see [render](render.md) |
 | `selected` | The selected result |
 | `suggestion` | The suggestion text |
 

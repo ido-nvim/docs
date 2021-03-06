@@ -35,11 +35,13 @@ Returns:
 
 - `true` success
 
-## `module.run(NAME)`
+## `module.run(NAME, [, ARGS])`
 Runs a module.
 
 Params:
 - `NAME` The name of the module to run.
+
+- `ARGS` The arguments supplied to the `main()` function of the module.
 
 Returns:
 - `nil` if errors were encountered, in which case it will print the cause

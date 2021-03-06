@@ -26,7 +26,6 @@ Alias to `main.start`
 - `ido.main` alias for [ido/main](main.md)
 - `ido.theme`alias for [ido/theme](theme.md)
 - `ido.config`alias for [ido/config](config.md)
-- `ido.layout`alias for [ido/layout](layout.md)
 - `ido.module`alias for [ido/module](module.md)
 - `ido.advice`alias for [ido/advice](advice.md)
 - `ido.cursor`alias for [ido/cursor](cursor.md)

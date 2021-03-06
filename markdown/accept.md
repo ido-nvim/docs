@@ -22,7 +22,7 @@ Return:
 - `true`
 
 ## `accept.suggestion()`
-Accept the suggestion offered. A *suggestion* is a common string which is present after the last matched position in all results which match the query **non fuzzily**. If using the default layout, it is displayed within square brackets (`[]`) right after the query. This action is bound to `<Tab>` by default.
+Accept the suggestion offered. A *suggestion* is a common string which is present after the last matched position in all results which match the query **non fuzzily**. If using the default renderer, it is displayed within square brackets (`[]`) right after the query. This action is bound to `<Tab>` by default.
 
 There is another scenario where suggestions are activated, when there is only *one* matching item. The rationalisation behind this has to do the UNIX shell, especially interactive shells like `bash`, `zsh` and the like. When there is only one possible autocompletion, hitting TAB completes it. Therefore in Ido, if there is only one result, hitting the keybinding for the suggestion key will accept it. In fact, when there is only one result, it won't be displayed as normal. Rather it will be displayed as a suggestion, where you can use either the "accept selected" key or the "accept suggestion" key.
 

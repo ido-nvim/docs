@@ -52,9 +52,16 @@ Fields:
 
 - `action` The piece of code which is being advised. Can be a defined function or a lambda
 
-- `temporary` Whether the advice will be removed once it is executed once, `false` by default
+- `temporary` How temporary the advice is, can be one of 0, 1 or 2
 
 - `hook` The hook when the advice will be executed, can be one of `before`, `after` or `overwrite` (default)
+
+Temporariness:
+- `0` The advice is not temporary, it will never be removed unless `advice.remove()` is called. Default
+
+- `1` The advice will be removed once Ido stops running. This is invalid anywhere other than an Ido function
+
+- `2` The advice will be removed the moment it has been executed
 
 Returns:
 - `nil` Some errors have occured. In this case, it will print out the exact cause of the error

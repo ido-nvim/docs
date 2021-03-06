@@ -149,7 +149,6 @@ Let's add another advice
 
 ```lua
 -- say_hello() definition
-
 -- first_advice
 
 advice.add{
@@ -194,9 +193,7 @@ For example, let's add another after advice
 
 ```lua
 -- say_hello() definition
-
 -- first_advice
-
 -- first `after` advice
 
 -- second `after` advice
@@ -231,11 +228,8 @@ Let's remove the overwrite advice
 
 ```lua
 -- say_hello() definition
-
 -- first_advice
-
 -- first `after` advice
-
 -- second `after` advice
 
 advice.remove{
@@ -265,13 +259,9 @@ Let's remove the `after` advice #2
 
 ```lua
 -- say_hello() definition
-
 -- first_advice
-
 -- first `after` advice
-
 -- second `after` advice
-
 -- first advice removal
 
 advice.remove{
@@ -296,25 +286,16 @@ Outside the advice wrapper
 ```
 
 ## Temporary
-Advices can be of two types:
-
-- `temporary` Once the advice is executed once, it will get removed
-
-- `permanent` The advice won't be removed, unless `advice.remove()` is used. This is the default type
+Advices can take a temporariness value. If not in an Ido function, the values 1 and 2 are valid. Otherwise all three are
 
 Let's create a temporary advice
 
 ```lua
 -- say_hello() definition
-
 -- first_advice
-
 -- first `after` advice
-
 -- second `after` advice
-
 -- first advice removal
-
 -- after advice #2 removal
 
 -- Demonstrate the `before` advice to kill two birds with one stone
@@ -330,7 +311,7 @@ advice.add{
       print("The before advice")
    end,
 
-   temporary = true
+   temporary = 2
 }
 
 say_hello()

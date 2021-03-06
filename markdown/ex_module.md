@@ -28,7 +28,7 @@ return test
 - Ready. Set. Go!
 
 ## The `main()` function
-This is the entry point of any Ido module. This is optional, it is only required in modules which are supposed to be run. You can very well have modules which only define layouts or themes.
+This is the entry point of any Ido module. This is optional, it is only required in modules which are supposed to be run. You can very well have modules which define renderers or themes.
 
 Let's create a basic function which helps us narrow out files and directories in the `HOME` directory
 
