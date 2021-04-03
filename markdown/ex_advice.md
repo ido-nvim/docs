@@ -286,7 +286,13 @@ Outside the advice wrapper
 ```
 
 ## Temporary
-Advices can take a temporariness value. If not in an Ido function, the values 1 and 2 are valid. Otherwise all three are
+Advices can take a "temporariness" value.
+
+- `0` Not temporary, will never get removed until `advice.remove()` is called
+- `1` Partially temporary, will get removed after the currently running Ido instance has stopped
+- `2` Completely temporary, will get removed the second it has been executed
+
+The temporary values `0` and `2` can be used anywhere, not just in an Ido function. The temporariness of `1`, however, is the exception. It can only be used in an Ido function.
 
 Let's create a temporary advice
 
