@@ -120,7 +120,7 @@ package.setup{
 - Run the package by the module naming scheme of `PKGNAME/MODNAME`
 
 ```vim
-:lua require("ido").module.run("test.ls")
+:lua require("ido").module.run("test/ls")
 ```
 
 - Customize the package from within `init.lua` by using either of the setup functions
