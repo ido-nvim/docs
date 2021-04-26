@@ -76,14 +76,14 @@ function vertical.main()
       -- Draw the rest of the items
       for i = 1, results_limit do
 
-         -- We are back at the beginning
-         if index == variables.selected then
-            goto redraw
-         end
-
          -- Wrap around at the end
          if index > results_limit then
             index = 1
+         end
+
+         -- We are back at the beginning
+         if index == variables.selected then
+            goto redraw
          end
 
          -- No point in rendering that which cannot be rendered
